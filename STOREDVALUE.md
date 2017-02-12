@@ -23,6 +23,7 @@
 | **CVV** <sup>1</sup>              | String  | 3   | Account CVV                    | Body |
 | **Track2** <sup>2</sup>       | String  | 50  | Track2 Data (stripe)           | Body |
 | **Identifier** <sup>3</sup>   | String  | 30  | Account Alternate Identifier   | Body |
+| **DeviceID** <sup>4</sup>     | String  | 20  | EMV Device ID                  | Body |
 | **Amount**                    | Numeric | 8   | Transaction Amount             | Body |
 | OverrideCVV                   | Boolean |     | Override Account CVV           | Body |
 | InvoiceNo                     | String  | 10  | Unique Transaction Identifier  | Body |
@@ -31,7 +32,8 @@
 
 <sup>1</sup> Include these fields for manually entered account information.<br />
 <sup>2</sup> Include this field for swiped account information.<br />
-<sup>3</sup> Include this field for alternate identifier account information.
+<sup>3</sup> Include this field for alternate identifier account information.<br />
+<sup>4</sup> Include this field for emv device.
 
 <br />
 
@@ -57,6 +59,7 @@
 | **CVV** <sup>1</sup>              | String  | 3   | Account CVV               | Body |
 | **Track2** <sup>2</sup>       | String  | 50  | Track2 Data (stripe)      | Body |
 | **Identifier** <sup>3</sup>   | String  | 30  | Account Alternate Identifier   | Body |
+| **DeviceID** <sup>4</sup>     | String  | 20  | EMV Device ID                  | Body |
 | **Amount**                    | Numeric | 8   | Transaction Amount             | Body |
 | OverrideCVV                   | Boolean |     | Override Account CVV           | Body |
 | InvoiceNo                     | String  | 10  | Unique Transaction Identifier  | Body |
@@ -64,7 +67,8 @@
 
 <sup>1</sup> Include these fields for manually entered account information.<br />
 <sup>2</sup> Include this field for swiped account information.<br />
-<sup>3</sup> Include this field for alternate identifier account information.
+<sup>3</sup> Include this field for alternate identifier account information.<br />
+<sup>4</sup> Include this field for emv device.
 
 <br />
 
@@ -90,11 +94,13 @@
 | **CVV** <sup>1</sup>              | String  | 3   | Account CVV               | Body |
 | **Track2** <sup>2</sup>       | String  | 50  | Track2 Data (stripe)      | Body |
 | **Identifier** <sup>3</sup>   | String  | 30  | Account Alternate Identifier   | Body |
+| **DeviceID** <sup>4</sup>     | String  | 20  | EMV Device ID                  | Body |
 | OverrideCVV                   | Boolean |     | Override Account CVV           | Body |
 
 <sup>1</sup> Include these fields for manually entered account information.<br />
 <sup>2</sup> Include this field for swiped account information.<br />
-<sup>3</sup> Include this field for alternate identifier account information.
+<sup>3</sup> Include this field for alternate identifier account information.<br />
+<sup>4</sup> Include this field for emv device.
 
 <br />
 
@@ -124,14 +130,16 @@
 | **CVV** <sup>1</sup>              | String  | 3   | Account CVV                 | Body |
 | **Track2** <sup>2</sup>       | String  | 50  | Track2 Data (stripe)        | Body |
 | **Identifier** <sup>3</sup>   | String  | 30  | Account Alternate Identifier     | Body |
+| **DeviceID** <sup>4</sup>     | String  | 20  | EMV Device ID                  | Body |
 | OverrideCVV                   | Boolean |     | Override Account CVV             | Body |
-| NewIdentifier <sup>4</sup>     | String  | 30  | New Account Alternate Identifier | Body |
-| Lock <sup>4</sup>              | Boolean |     | Account Lock                     | Body |
-| CreditLimit <sup>4</sup>      | Numeric |  8  | Enable Credit and Set Limit      | Body |
+| NewIdentifier <sup>5</sup>     | String  | 30  | New Account Alternate Identifier | Body |
+| Lock <sup>5</sup>              | Boolean |     | Account Lock                     | Body |
+| CreditLimit <sup>5</sup>      | Numeric |  8  | Enable Credit and Set Limit      | Body |
 
 <sup>1</sup> Include these fields for manually entered account information.<br />
 <sup>2</sup> Include this field for swiped account information.<br />
 <sup>3</sup> Include this field for alternate identifier account information.<br />
+<sup>4</sup> Include this field for emv device.<br />
 <sup>4</sup> Must include one or more of these fields.
 
 <br />
