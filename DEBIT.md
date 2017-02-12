@@ -23,7 +23,7 @@
 | OverrideDuplicate             | Boolean |     | Override Duplicate Transaction | Body |
 
 <sup>1</sup> Include these fields for direct device integration.<br />
-<sup>2</sup> Include this field for emv transactions.
+<sup>2</sup> Include this field for internet connected emv device.
 
 <br />
 ## Return
@@ -42,7 +42,7 @@
 | OverrideDuplicate             | Boolean |     | Override Duplicate Transaction | Body |
 
 <sup>1</sup> Include these fields for direct device integration.<br />
-<sup>2</sup> Include this field for emv transactions.
+<sup>2</sup> Include this field for internet connected emv device.
 
 <br />
 ## Responses
