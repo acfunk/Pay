@@ -14,12 +14,16 @@
 ###Request Fields (**bold** fields required)
 | Field                         | Type    | Max Length  | Description                   | Location |
 |-------------------------------|---------|-----|--------------------------------|------|
-| **Track2**                    | String  | 37  | Card Track2 Data (stripe)      | Body |
-| **DerivedKey**                | String  | 20  | Debit Derived Key              | Body |
-| **PINBlock**                  | String  | 20  | Debit PIN Block                | Body |
+| **Track2** <sup>1</sup>       | String  | 37  | Card Track2 Data (stripe)      | Body |
+| **DerivedKey** <sup>1</sup>   | String  | 20  | Debit Derived Key              | Body |
+| **PINBlock** <sup>1</sup>     | String  | 20  | Debit PIN Block                | Body |
+| **DeviceID** <sup>2</sup>     | String  | 20  | EMV Device ID                  | Body |
 | **Amount**                    | String  | 8   | Transaction Amount             | Body |
 | InvoiceNo                     | String  | 10  | Unique Transaction Identifier  | Body |
 | OverrideDuplicate             | Boolean |     | Override Duplicate Transaction | Body |
+
+<sup>1</sup> Include these fields for direct device integration.<br />
+<sup>2</sup> Include this field for emv transactions.
 
 <br />
 ## Return
@@ -29,13 +33,16 @@
 ###Request Fields (**bold** fields required)
 | Field                         | Type    | Max Length  | Description                   | Location |
 |-------------------------------|---------|-----|--------------------------------|------|
-| **Track2**                    | String  | 37  | Card Track2 Data (stripe)      | Body |
-| **DerivedKey**                | String  | 20  | Debit Derived Key              | Body |
-| **PINBlock**                  | String  | 20  | Debit PIN Block                | Body |
+| **Track2** <sup>1</sup>       | String  | 37  | Card Track2 Data (stripe)      | Body |
+| **DerivedKey** <sup>1</sup>   | String  | 20  | Debit Derived Key              | Body |
+| **PINBlock** <sup>1</sup>     | String  | 20  | Debit PIN Block                | Body |
+| **DeviceID** <sup>2</sup>     | String  | 20  | EMV Device ID                  | Body |
 | **Amount**                    | String  | 8   | Transaction Amount             | Body |
 | InvoiceNo                     | String  | 10  | Unique Transaction Identifier  | Body |
 | OverrideDuplicate             | Boolean |     | Override Duplicate Transaction | Body |
 
+<sup>1</sup> Include these fields for direct device integration.<br />
+<sup>2</sup> Include this field for emv transactions.
 
 <br />
 ## Responses
