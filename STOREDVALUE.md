@@ -33,7 +33,7 @@
 <sup>1</sup> Include these fields for manually entered account information.<br />
 <sup>2</sup> Include this field for swiped account information.<br />
 <sup>3</sup> Include this field for alternate identifier account information.<br />
-<sup>4</sup> Include this field for emv device.
+<sup>4</sup> Include this field for internet connected emv device.
 
 <br />
 
@@ -68,7 +68,7 @@
 <sup>1</sup> Include these fields for manually entered account information.<br />
 <sup>2</sup> Include this field for swiped account information.<br />
 <sup>3</sup> Include this field for alternate identifier account information.<br />
-<sup>4</sup> Include this field for emv device.
+<sup>4</sup> Include this field for internet connected emv device.
 
 <br />
 
@@ -100,7 +100,7 @@
 <sup>1</sup> Include these fields for manually entered account information.<br />
 <sup>2</sup> Include this field for swiped account information.<br />
 <sup>3</sup> Include this field for alternate identifier account information.<br />
-<sup>4</sup> Include this field for emv device.
+<sup>4</sup> Include this field for internet connected emv device.
 
 <br />
 
@@ -139,7 +139,7 @@
 <sup>1</sup> Include these fields for manually entered account information.<br />
 <sup>2</sup> Include this field for swiped account information.<br />
 <sup>3</sup> Include this field for alternate identifier account information.<br />
-<sup>4</sup> Include this field for emv device.<br />
+<sup>4</sup> Include this field for internet connected emv device.<br />
 <sup>4</sup> Must include one or more of these fields.
 
 <br />
