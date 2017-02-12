@@ -58,7 +58,7 @@ Depending on the merchant's processor, a subset of available Monetary transactio
 <sup>1</sup> Include these fields for manually entered account information.<br />
 <sup>2</sup> Include this field for swiped account information.<br />
 <sup>3</sup> Include this field for tokenized card information.<br />
-<sup>4</sup> Include this field for emv transactions.<br />
+<sup>4</sup> Include this field for internet connected emv device.<br />
 <sup>5</sup> Include this field for authorizations obtained from the voice authorization center.
 
 <br />
@@ -110,7 +110,7 @@ Depending on the merchant's processor, a subset of available Monetary transactio
 <sup>1</sup> Include these fields for manually entered account information.<br />
 <sup>2</sup> Include this field for swiped account information.<br />
 <sup>3</sup> Include this field for tokenized card information.<br />
-<sup>4</sup> Include this field for emv transactions.
+<sup>4</sup> Include this field for internet connected emv device.
 
 <br />
 ## Void Return
@@ -147,7 +147,7 @@ Depending on the merchant's processor, a subset of available Monetary transactio
 <sup>1</sup> Include these fields for manually entered account information.<br />
 <sup>2</sup> Include this field for swiped account information.<br />
 <sup>3</sup> Include this field for tokenized card information.<br />
-<sup>4</sup> Include this field for emv transactions.<br />
+<sup>4</sup> Include this field for internet connected emv device.<br />
 <sup>5</sup> Include this field for authorizations obtained from the voice authorization center.
 <br />
 ## Capture
@@ -188,7 +188,7 @@ Depending on the merchant's processor, a subset of available Monetary transactio
 <sup>1</sup> Include these fields for manually entered account information.<br />
 <sup>2</sup> Include this field for swiped account information.<br />
 <sup>3</sup> Include this field for tokenized card information.<br />
-<sup>4</sup> Include this field for emv transactions.<br />
+<sup>4</sup> Include this field for internet connected emv device.<br />
 <sup>5</sup> `Amount` value may be `0.00` for a zero-dollar (card verification) authorization.<br />
 <sup>6</sup> Include this field for authorizations obtained from the voice authorization center.
 
