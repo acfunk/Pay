@@ -31,6 +31,10 @@ We support the following for `Content-Type` and `Accepts` values:
 * [Sale](DEBIT.md#sale) `POST` /debit/sale
 * [Return](DEBIT.md#return) `POST` /debit/return
 
+###[EMV Transactions](EMV.md)
+* [Pad Reset](EMV.md#pad-reset) `POST` /emv/padreset
+* [Get Signature](EMV.md#get-signature) `GET` /emv/getsignature
+
 ###[Stored Value Transactions](STOREDVALUE.md)
 * [Load](STOREDVALUE.md#load) `POST` /storedvalue/load
 * [Void Load](STOREDVALUE.md#void-load) `POST` /storedvalue/load/**{RefNo}**/void
